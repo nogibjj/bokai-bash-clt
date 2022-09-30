@@ -19,7 +19,7 @@ def describe():
 
 
 @cli.command()
-@click.option("--store", default="1", help="Find all data of a specific store")
+@click.option("--store", default="1", help="The store number ranging from 1 to 45")
 def find_store(store):
     """Find all data of a specific store"""
     data = pd.read_csv("walmart-sales-dataset-of-45stores.csv")
@@ -29,7 +29,7 @@ def find_store(store):
 @cli.command()
 @click.option("--y", default="2010", help="Year of the date, default 2010")
 @click.option("--m", default="01", help="Month of the date, default 01")
-@click.option("--d", default="01", help="Day of the date, default o1")
+@click.option("--d", default="01", help="Day of the date, default 01")
 @click.option(
     "--b",
     default="1",
