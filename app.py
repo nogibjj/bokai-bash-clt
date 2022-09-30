@@ -65,7 +65,7 @@ def holiday(h):
 )
 @click.option("--asc", default="1", help="If 1 then ascending, if 0 descending.")
 def sort(r, asc):
-    """Find the data within/without the special holiday week."""
+    """Sort the data ascending/desceding by a chosen column."""
     data = pd.read_csv("walmart-sales-dataset-of-45stores.csv")
     data.Date = pd.to_datetime(data.Date)
     col = list(data.columns)[int(r) - 1]
