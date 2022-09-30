@@ -4,7 +4,7 @@ __Author: Bokai Zhou__
 
 This is the second individual project of building a Bash command-line tool to perform useful data preparation tasks. 
 
-### Dataset: Walmart Sales Dataset of 45stores
+### Dataset: [Walmart Sales Dataset of 45stores](https://www.kaggle.com/datasets/varsharam/walmart-sales-dataset-of-45stores?resource=download)
 - __Store__: Store Numbers ranging from 1 to 45
 - __Date__: The Week of Sales. It is in the format of dd-mm-yyyy. The date starts from 05-02-2010
 - __Weekly_Sales__: The sales of the given store in the given week
